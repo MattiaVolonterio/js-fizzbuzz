@@ -1,6 +1,24 @@
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    164deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(205, 205, 205, 1) 57%,
+    rgba(121, 121, 121, 1) 100%
+  );
+}
+
 .page-title {
   font-size: 5rem;
-  font-weight: 900;
+  font-weight: 700;
+
+  filter: drop-shadow(0 0 0.75rem grey);
+
+  background: -webkit-linear-gradient(lightgrey, black);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .boxElement {
@@ -9,20 +27,43 @@
   line-height: 150px;
 
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 600;
 
-  background-color: skyblue;
+  border-radius: 25px;
+
   border: 1px solid black;
+
+  background: rgb(63, 223, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 223, 251, 1) 0%,
+    rgba(53, 6, 255, 1) 100%
+  );
 }
 
 .boxFizzBuzz {
-  background-color: red;
+  background: rgb(255, 147, 147);
+  background: radial-gradient(
+    circle,
+    rgba(255, 147, 147, 1) 0%,
+    rgba(142, 60, 0, 1) 100%
+  );
 }
 
 .boxBuzz {
-  background-color: goldenrod;
+  background: rgb(255, 255, 115);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 115, 1) 0%,
+    rgba(117, 128, 1, 1) 100%
+  );
 }
 
 .boxFizz {
-  background-color: lightgreen;
+  background: rgb(165, 255, 86);
+  background: radial-gradient(
+    circle,
+    rgba(165, 255, 86, 1) 0%,
+    rgba(1, 101, 49, 1) 100%
+  );
 }
