@@ -2,7 +2,6 @@ const boxContainer = document.getElementById("box_container");
 
 for (let i = 1; i <= 100; i++) {
   const boxElement = document.createElement("div");
-  console.log(boxElement);
   boxElement.classList.add("boxElement");
 
   if (i % 15 == 0) {
