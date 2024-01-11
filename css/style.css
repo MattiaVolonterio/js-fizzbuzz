@@ -9,5 +9,20 @@
   line-height: 150px;
 
   font-size: 1.5rem;
+  font-weight: 700;
+
+  background-color: skyblue;
   border: 1px solid black;
+}
+
+.boxFizzBuzz {
+  background-color: red;
+}
+
+.boxBuzz {
+  background-color: goldenrod;
+}
+
+.boxFizz {
+  background-color: lightgreen;
 }
